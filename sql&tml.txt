@@ -1,0 +1,11 @@
+// DATABASE MYSQL
+create database belajar_nodejs_restful_api;
+use belajar_nodejs_restful_api;
+show tables;
+describe contacts;
+describe addresses;
+
+
+// TERMINAL
+npx prisma migrate dev --create-only
+npx prisma migrate dev
